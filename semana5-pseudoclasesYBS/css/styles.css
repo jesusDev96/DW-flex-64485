@@ -1,0 +1,41 @@
+/* .articulo-principal {
+    color: blue;
+}
+.articulo-principal:hover {
+    color: brown;
+}
+
+button {
+    background-color: green;
+}
+button:hover {
+    background-color: yellow;
+}
+.link-button:link {
+    color: black;
+}
+.link-button:visited {
+    color: coral;
+}
+
+/* p:not(.parrafo-diferente) {
+    color: red;
+} */
+
+/* article:nth-child(4) {
+    color: green;
+}
+p:nth-child(1) {
+    color: aquamarine;
+}  */
+
+
+.bg-nav {
+    background-color: rgb(79, 75, 75);
+}
+.btn-propio {
+    background-color: rgb(73, 73, 116);
+}
+.card-styles {
+    width: 288px;
+}

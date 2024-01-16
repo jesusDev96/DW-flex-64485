@@ -1,0 +1,40 @@
+/* 
+    selector {
+        propiedad: valor;
+    }
+*/
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: blue;
+}
+p {
+    font-size: 20px;
+}
+
+article h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: red;
+}
+
+/* clases */
+.green-text {
+    color: green;
+}
+
+/* ID */
+#section-one {
+    text-align: center;
+}
+span {
+    color: black;
+}

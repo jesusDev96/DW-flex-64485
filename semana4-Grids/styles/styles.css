@@ -1,0 +1,133 @@
+.grid-container {
+    /* border: 1px solid black;
+    height: 800px;
+
+    display: grid; */
+    /* grid-template-columns: 300px 300px 300px; */
+    /* grid-template-columns: repeat(2, 300px); */
+    /* grid-template-columns: 150px 1fr 1fr; */
+    /* grid-template-rows: 300px 300px 300px; */
+    /* grid-template-rows: repeat(3, 300px); */
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* grid-template-areas: 
+        "nav encabezado encabezado"
+        "nav descripcion descripcion"
+        "info info info"; */
+    background-color: aqua;
+}
+.grid-container p {
+    font-size: 32px;
+}
+
+/* .grid-area {
+    border: 1px solid blue;
+} */
+
+/* .encabezado {
+    grid-area: encabezado;
+    background-color: green;
+}
+.navbar {
+    grid-area: nav;
+    background-color: blue;
+}
+.descripcion {
+    grid-area: descripcion;
+    background-color: red;
+}
+.info {
+    grid-area: info;
+    background-color: yellow;
+} */
+
+/* MEDIA QUERIES */
+/* @media (max-width: 425px) {
+    .grid-container {
+        background-color: blue;
+    }
+    .grid-container p {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .grid-container {
+        background-color: green;
+    }
+    .grid-container p {
+        font-size: 24px;
+    }
+} */
+
+/* Breakpoing mobile: 425px-480px */
+/* Breakpoint tablet: 768px */
+/* Breakpoint netbooks: 1024px - opcional*/
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.left-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    grid-area: left-ul;
+}
+.right-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    grid-area: right-ul;
+}
+.logo {
+    grid-area: logo;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "left-ul left-ul logo right-ul right-ul";
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.main-content p {
+    font-size: 32px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "logo logo logo logo"
+        "left-ul left-ul right-ul right-ul";
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .main-content {
+        flex-direction: column;
+    }
+    .main-content p {
+        font-size: 16px;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
