@@ -1,0 +1,7 @@
+.card-container {
+    @include flex(row, space-around, center)
+}
+.card {
+    border: 2px solid black;
+    @include medidas(250px, 250px);
+}

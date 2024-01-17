@@ -1,0 +1,16 @@
+// EXTEND
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+.main-button {
+    @extend .button;
+    background-color: rgb(64, 64, 232);
+}
+.cancel-button {
+    @extend .button;
+    background-color: rgb(228, 63, 63);
+}

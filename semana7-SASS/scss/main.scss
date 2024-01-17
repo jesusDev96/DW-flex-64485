@@ -1,0 +1,17 @@
+// BASE
+@import 'partials/base/reset';
+@import 'partials/base/tipografia';
+
+// UTILITIES
+@import 'partials/utilities/variables';
+@import 'partials/utilities/maps';
+@import 'partials/utilities/mixins';
+
+// COMPONENTS
+@import 'partials/components/header';
+@import 'partials/components/cards';
+@import 'partials/components/buttons';
+@import 'partials/components/index';
+
+
+// ACA SOLO SE IMPORTA, NO SE ESCRIBE CODIGO

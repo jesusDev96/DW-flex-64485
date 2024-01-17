@@ -1,0 +1,19 @@
+// MAPS
+$colores: (
+    gray: #BABABA,
+    pure-white: #FFFFFF,
+    pure-black: #000000,
+    lava-red: rgb(228, 63, 63),
+    blue-lagoon: rgb(64, 64, 232),
+);
+$font-sizes: (
+    xs: 14px,
+    m: 16px,
+    l: 24px,
+    xl: 32px,
+);
+
+h1 {
+    color: map-get($colores, lava-red);
+    font-size: map-get($font-sizes , l );
+}
